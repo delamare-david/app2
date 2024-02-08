@@ -1,9 +1,8 @@
 
-# Project Title
+# Création d'une application responsive appler app2
 
-A brief description of what this project does and who it's for
-
-```echo "hello world"```
+Pendant ma formation " préparation du métier du numérique et de l'informatique " j'ai travillé sur une application qui passe du format pc en format mobile et inversement. 
+Ceci est le travail terminer.
 ## Screenshots
 
 ![Screenshot_app2_desktop](./assets/data/screenshot_app2_desktop.png)

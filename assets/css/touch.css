@@ -1,0 +1,22 @@
+#touch{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    /* test */
+/*     transform: translateX(3px);
+ */
+}
+#eye{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    top: 25px;
+    right: 25px;
+}

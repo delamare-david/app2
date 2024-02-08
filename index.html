@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
@@ -13,10 +12,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script type="module" src="./assets/javascipt/script.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/touch.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"
+        integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/touch.js" defer></script>
 </head>
 
 <body>
+    <div id="touch">
+        <div id="eye"></div>
+    </div>
     <!-- div#back>div#modal>(div#close{x}+h4+p+div+input+button) -->
     <div id="back">
         <div id="modale">
@@ -133,7 +141,7 @@
                     <div class="case"><span>No</span> Ads</div>
                     <div class="case"><span>Office hours</span> Support</div>
                     <div class="case">$ 25</div>
-                    <div id = "app4Btn" class="app4Btn overBtn"><i class="fa-solid fa-download">Download</i></div>
+                    <div id="app4Btn" class="app4Btn overBtn"><i class="fa-solid fa-download">Download</i></div>
                 </div>
                 <div id="app4Txt">
                     <div class="premium">Premium</div>
@@ -142,7 +150,7 @@
                     <div class="case"><span>No</span> Ads</div>
                     <div class="case"><span>Office hours</span> Support</div>
                     <div class="case">$ 99</div>
-                    <div id = "app4Btn1" class="app4Btn  overBtn"><i class="fa-solid fa-download">Download</i></div>
+                    <div id="app4Btn1" class="app4Btn  overBtn"><i class="fa-solid fa-download">Download</i></div>
                 </div>
             </div>
         </section>
