@@ -22,7 +22,7 @@ hammertime.on('pan pinch', function (event) {
             touch.style.left = distance + ofLeft+"px)";
             break;
         case "panup":
-            touch.style.transform = distance + ofTop+"px";
+            touch.style.transform = - distance + ofTop+"px";
             break;
         case "pandown":
             touch.style.transform = distance + ofTop+"px";
